@@ -1,0 +1,241 @@
+@font-face{
+    font-family: 'Poppins Regular';
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
+:root{
+    --main-width: 1060px;
+    --main-margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+}
+
+.header-background{
+    color: #ffffff;
+}
+
+.header{
+    max-width: var(--main-width);
+    margin: var(--main-margin);
+}
+
+.header h1{
+    grid-column: 1/2;
+    grid-row: 1;
+
+    margin: var(--main-margin);
+    text-align: center;
+    color: crimson;
+    align-self: center;
+    font-size: 3rem;
+}
+.header ul{
+    grid-column: 6/9;
+    grid-row: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.header li{
+    color: crimson;
+    padding: 20px;
+}
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.header a:hover{
+    background-color: rgb(228, 188, 188);
+}
+
+.welcome{
+    width: 100%;
+    min-height: 300px;
+    background: url(../assets/bc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.welcome .welcome-content{
+    max-width: var(--main-width);
+    margin: var(--main-margin);
+    padding: 50px;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+}
+.welcome img{
+    width: 100%;
+}
+
+.about-background{
+    background-color: #ececec;
+}
+.about{
+    max-width: var(--main-width);
+    margin: var(--main-margin);
+
+    min-height: 300px;
+    font-size: 1.5rem;
+}
+.about h2{
+    grid-column: 1/8;
+    grid-row: 1;
+    font-size: 2rem;
+}
+.about img{
+    grid-column: 1/3;
+    grid-row: 2;
+}
+.about p{
+    grid-column: 3/9;
+    grid-row: 2;
+    text-align: justify;
+}
+
+.portfolio-background{
+    background-color: #ffffff;
+}
+.portfolio{
+    max-width: var(--main-width);
+    margin: var(--main-margin);
+}
+.portfolio h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+.portfolio a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 4px;
+}
+.portfolio a:nth-child(1){
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.portfolio a:nth-child(2){
+    grid-column: 3/5;
+    grid-row: 1;
+}
+.portfolio a:nth-child(3){
+    grid-column: 5/7;
+    grid-row: 1;
+}
+.portfolio a:nth-child(4){
+    grid-column: 7/9;
+    grid-row: 1;
+}
+.portfolio a:nth-child(5){
+    grid-column: 1/3;
+    grid-row: 2;
+}
+.portfolio a:nth-child(6){
+    grid-column: 3/5;
+    grid-row: 2;
+}
+.portfolio a:nth-child(7){
+    grid-column: 5/7;
+    grid-row: 2;
+}
+.portfolio a:nth-child(8){
+    grid-column: 7/9;
+    grid-row: 2;
+}
+.portfolio h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact{
+    background-color: #ececec;
+}
+
+.contact-content{
+    max-width: var(--main-width);
+    margin: var(--main-margin);
+}
+.contact h2{
+    font-size: 2rem;
+    padding-top: 10px;
+    margin: 0px 10px;
+}
+.contact form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto;
+}
+.contact input, textarea{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+
+    background-color: white;
+
+    border-radius: 10px;
+    border: 2px solid rgb(204, 213, 230);
+}
+.contact input{
+    height: 35px;
+}
+.contact textarea{
+    height: 100px;
+}
+.contact button{
+    width: 102%;
+    height: 30px;
+    margin-bottom: 10px;
+
+    background-color: rgb(67, 196, 67);
+    color: white;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    border: 0px;
+}
+.contact button:active{
+    background-color: rgb(39, 117, 39);
+}
+
+.footer-background{
+    background-color: azure;
+}
+.footer{
+    max-width: var(--main-width);
+    margin: var(--main-margin);
+    text-align: center;
+}
+
+.footer p{
+    grid-column: 1/3;
+    grid-row: 1;
+    align-self: center;
+    margin: 0;
+}
+.footer h2{
+    grid-column: 4/6;
+    grid-row: 1;
+    align-self: center;
+    margin: 0;
+    
+    font-size: 3rem;
+}
+.footer ul{
+    grid-column: 7/9;
+    grid-row: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.footer ul li{
+    align-self: center;
+}
+.footer img{
+    width: 25px;
+    padding: 0 5px;
+}
