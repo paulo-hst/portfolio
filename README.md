@@ -11,7 +11,10 @@ Portfólio simples criado em HTML e CSS.
 - CSS
 
 ## Status
-- [x] Finalizado (29/01/2021)
+- [x] HTML e CSS
+- [ ] Adicionar imagens reais
+- [ ] Melhorar menu do header (adicionar botão para exibir menu no modo mobile)
+- [ ] Efeitos nas imagens em JavaScript
 
 <!-- ## Links
 - [ ]( ) -->
