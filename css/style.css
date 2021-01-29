@@ -244,7 +244,6 @@
     padding: 0 5px;
 }
 
-
 @media screen and (max-width: 900px){
     
     .portfolio h3{
@@ -292,11 +291,17 @@
 
 }
 
-
 @media screen and (max-width: 600px){
     
+    .header h1{
+        grid-column: 1/9;
+    }
+    .header ul{
+        display: none;
+    }
     .welcome .welcome-content{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        padding: 10px 10px;
     }
     
     .about{
@@ -374,15 +379,22 @@
     .contact{
         padding-bottom: 15px;
     }
+
+    .contact form{
+        width: 70%;
+    }
+
     .footer h1{
         font-size: 2.5rem;
     }
     .footer p{
+        grid-column: 1/4;
+        padding: 0px 0px;
         font-size: 0.7rem;
     }
     .footer img{
         width: 20px;
-        padding: 3px;
+        padding: 0px 5px;
     }
 
 }
