@@ -3,6 +3,7 @@
     src: url(../assets/fonts/Poppins-Medium.ttf);
 }
 
+
 :root{
     --main-width: 1060px;
     --main-margin: 0 auto;
@@ -49,6 +50,9 @@
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: 500;
+}
+.header a:last-child{
+    display: none;
 }
 .header a:hover{
     background-color: rgb(228, 188, 188);
@@ -217,12 +221,13 @@
     align-self: center;
     margin: 0;
 }
-.footer h2{
+.footer h1{
     grid-column: 4/6;
     grid-row: 1;
     align-self: center;
     margin: 0;
     
+    color: crimson;
     font-size: 3rem;
 }
 .footer ul{
@@ -238,4 +243,96 @@
 .footer img{
     width: 25px;
     padding: 0 5px;
+}
+
+@media screen and (max-width: 600px){
+    
+    .welcome .welcome-content{
+        font-size: 1.3rem;
+    }
+    
+    .about{
+        font-size: 1.2rem;
+    }
+    .about h2{
+        grid-column: 1/9;
+        grid-row: 1;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .about img{
+        grid-column: 1/9;
+        grid-row: 2;
+        margin: auto;
+    }
+    .about p{
+        grid-column: 1/9;
+        grid-row: 3;
+
+        text-align: justify;
+        padding: 10px 10px;
+    }
+
+    .portfolio h2{
+        text-align: center;
+    }
+
+    .portfolio a{
+        margin: auto;   
+    }
+    .portfolio a:nth-child(1){
+        grid-column: 1/5;
+        grid-row: 1;
+    }
+    .portfolio a:nth-child(2){
+        grid-column: 5/9;
+        grid-row: 1;
+    }
+    .portfolio a:nth-child(3){
+        grid-column: 1/5;
+        grid-row: 2;
+    }
+    .portfolio a:nth-child(4){
+        grid-column: 5/9;
+        grid-row: 2;
+    }
+    .portfolio a:nth-child(5){
+        grid-column: 1/5;
+        grid-row: 3;
+    }
+    .portfolio a:nth-child(6){
+        grid-column: 5/9;
+        grid-row: 3;
+    }
+    .portfolio a:nth-child(7){
+        grid-column: 1/5;
+        grid-row: 4;
+    }
+    .portfolio a:nth-child(8){
+        grid-column: 5/9;
+        grid-row: 4;
+    }
+    .portfolio h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .contact h2{
+        text-align: center;
+    }
+
+    .contact{
+        padding-bottom: 15px;
+    }
+    .footer h1{
+        font-size: 2.5rem;
+    }
+    .footer p{
+        font-size: 0.7rem;
+    }
+    .footer img{
+        width: 20px;
+        padding: 3px;
+    }
+
 }

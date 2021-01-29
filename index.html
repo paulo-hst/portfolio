@@ -13,9 +13,10 @@
         <nav class="header grid">
             <h1>♕</h1>
             <ul>
-                <a href="#about"><li>Sobre</li></a>
-                <a href="#projects"><li>Projetos</li></a>
-                <a href="#contact"><li>Contato</li></a>
+                <a id="li01" href="#about"><li>Sobre</li></a>
+                <a id="li02"  href="#portfolio"><li>Projetos</li></a>
+                <a id="li03"  href="#contact"><li>Contato</li></a>
+                <a id="li04"  href="#" onclick="handleMenu()"><li><img src="./assets//menu_icon.svg"></li></a>
             </ul>
         </nav>
     </div>
@@ -29,7 +30,7 @@
     </section>
 
     <div class="about-background">
-        <section class="about" id="about">
+        <section class="about grid" id="about">
             <h2>Sobre</h2>
             <img src="http://placehold.it/250x250" alt="#">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste explicabo adipisci cupiditate blanditiis voluptatibus libero aliquam delectus tempora a, quas, sint neque dolorem minima iusto officiis repellendus modi assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed cum quas, porro dolores eaque? </p>
@@ -91,7 +92,7 @@
     <div class="footer-background">
         <footer class="footer grid" id="footer">
             <p>Copyright - 2021</p>
-            <h2>♕</h2>
+            <h1>♕</h1>
             <ul>
                 <li>
                     <a target="_blank"  href="#">
@@ -111,6 +112,8 @@
             </ul>    
         </footer>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
