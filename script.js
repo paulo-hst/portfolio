@@ -1,7 +1,3 @@
-
-// <img src="./assets/menu_icon.svg">
-
-
 const menu = document.querySelector('.menu')
 const liItem1 = document.querySelector('.menu-item1')
 const liItem2 = document.querySelector('.menu-item2')
