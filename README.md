@@ -12,9 +12,9 @@ Portfólio simples criado em HTML e CSS.
 
 ## Status
 - [x] HTML e CSS
-- [ ] Correções no layout (margin / padding)
+- [x] Correções no layout (margin / padding)
+- [x] Melhorar menu do header (adicionar botão para exibir menu no modo mobile)
 - [ ] Adicionar imagens reais
-- [ ] Melhorar menu do header (adicionar botão para exibir menu no modo mobile)
 - [ ] Efeitos nas imagens em JavaScript
 
 <!-- ## Links
