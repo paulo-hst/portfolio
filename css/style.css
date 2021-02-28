@@ -33,14 +33,25 @@
     align-self: center;
     font-size: 3rem;
 }
-.header ul{
+.menu{
     grid-column: 6/9;
     grid-row: 1;
 
     display: flex;
     justify-content: flex-end;
 }
-.header li{
+.menu-item1{
+    display: block;
+    color: crimson;
+    padding: 20px;
+}
+.menu-item2{
+    display: block;
+    color: crimson;
+    padding: 20px;
+}
+.menu-item3{
+    display: block;
     color: crimson;
     padding: 20px;
 }
@@ -50,10 +61,13 @@
     font-size: 1.2em;
     font-weight: 500;
 }
-.header a:last-child{
+.menu-button{
     display: none;
+    padding: 20px;
+    color: crimson;
 }
-.header a:hover{
+
+.menu a:hover{
     background-color: rgb(228, 188, 188);
 }
 
@@ -299,10 +313,55 @@
     
     .header h1{
         grid-column: 1/9;
+        width: 100%;
+        display: block;
     }
-    .header ul{
+
+    .menu li{
+        text-align: center;
+    }
+
+    .menu-item1{
         display: none;
+        color: white;
     }
+    .menu-item2{
+        display: none;
+        color: white;
+    }
+    .menu-item3{
+        display: none;
+        color: white;
+    }    
+    .menu-button{
+        display: block;
+    }
+  
+    .menu li:hover{
+        background-color: rgb(228, 188, 188);
+    }
+
+    /* MENU ATIVO, ACHO QUE TA CERTO */
+    .menu-active-ul{
+        display: block;
+        width: 100%;
+        background-color: crimson;
+        position: absolute;
+        top: 70px;
+    }
+    .menu-active-item1{
+        display: block;
+    }  
+    .menu-active-item2{
+        display: block;
+    }  
+    .menu-active-item3{
+        display: block;
+    }    
+    .menu-active-button{
+        display: block;
+    }
+
     .welcome .welcome-content{
         text-align: justify;
         font-size: 0.9rem;
