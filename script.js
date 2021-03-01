@@ -10,6 +10,7 @@ console.log(liButtonLink.getAttribute('src'))
 function handleMenu(){
     liButtonLink.setAttribute('width', '16')
     menu.classList.toggle('menu-active-ul')
+    
     liItem1.classList.toggle('menu-active-item1')
     liItem2.classList.toggle('menu-active-item2')
     liItem3.classList.toggle('menu-active-item3')
